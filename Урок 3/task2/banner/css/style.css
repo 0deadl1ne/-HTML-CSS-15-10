@@ -1,0 +1,64 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper{
+	background-image: url(../img/bg.jpg);
+	height: 100vh;
+	background-size: 100% 100%;
+	font-family: 'Jomolhari', serif;
+}
+.text{
+
+	height: 400px;
+	width: 45%;
+	margin: 100px 20px 0px 0px;
+	float: right;
+	
+}
+#title{
+	height: 80px;
+	margin-bottom: 10px;
+	font-size: 50px;
+}
+
+#subtitle{
+	height: 50px;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+#info{
+	height: 250px;
+	font-size: 25px;
+
+}
+.banner_text{
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding: 0px 10px 0px 10px;
+
+}
+.btn{
+	display: block;
+	background: green;
+	border: none;
+	padding: 5px 10px;
+	margin: 20px 0px 0px 20px;
+}
+.link{
+	text-decoration: none;
+	color: white;
+}
+.circle{
+	height: 25px;
+	width: 25px;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 50%; 
+}
+.nav{
+	    margin: auto;
+		display: flex;
+		justify-content: space-around;
+		width: 160px;
+        margin-top: -40px;
+}
