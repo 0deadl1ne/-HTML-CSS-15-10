@@ -1,0 +1,74 @@
+
+#first{
+
+	margin: auto;
+	width: 500px;
+
+}
+.Mainline{
+	
+	border: 1px dotted grey;
+	} 
+
+.main_name{
+	font-weight: bold;
+	color: rgb(215, 100, 100);
+
+}
+
+.name{
+	font-weight: bold;
+	color: rgb(200, 100, 32);
+
+}
+
+.pics{
+	width: 100px;
+	height: 60px;
+	border-radius: 10%;
+}
+.menu{
+	display: flex;
+
+
+
+}
+img{
+	margin-top:5px;
+	margin-right: 5px; 
+}
+
+	
+
+
+.second {
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 0px;
+	
+
+}
+.second p{
+	margin-bottom: 5px;
+
+}
+#lorem{
+	flex-basis: 100%;
+	margin-top: 0px;
+	font-size: 10px;
+	/*position: absolute;
+	top: 80px;
+bottom: 500px;
+right: 425px;
+width: 400px;*/}
+.prise{
+	font-weight: bold;
+	color: rgb(150, 200, 50);
+}
+
+
+
+
+
