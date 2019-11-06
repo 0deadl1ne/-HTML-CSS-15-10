@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+}
+
+ul{
+	
+	width: 200px;
+	height: 100%;
+	background-color: rgb(43, 47, 50);
+	margin: 0;
+	padding: 5px;
+
+
+}
+li{
+	height: 15px;
+	margin-left:  10px;
+	margin-right:  10px;
+	margin-bottom: 5px; 
+	list-style-type: none;
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+    font-family: 'Inconsolata', monospace;
+	
+	
+	border: 1px solid rgb(34, 36, 38);
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-right: none;
+	padding: 5px;
+	
+}
+li:hover{
+	background-color: rgba(0, 0, 0, .5);
+	cursor: pointer;
+}
