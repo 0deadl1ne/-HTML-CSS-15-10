@@ -1,0 +1,143 @@
+.wrapper1{
+	position: relative;
+	z-index: 1;
+	margin: auto;
+	width: 470px;
+	height: 410px;
+    background: rgba(196,143,75,1);
+background: -moz-linear-gradient(-45deg, rgba(196,143,75,1) 0%, rgba(245,193,137,1) 26%, rgba(255,209,155,1) 48%, rgba(255,210,156,1) 49%, rgba(145,110,70,1) 70%, rgba(71,44,13,1) 84%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(196,143,75,1)), color-stop(26%, rgba(245,193,137,1)), color-stop(48%, rgba(255,209,155,1)), color-stop(49%, rgba(255,210,156,1)), color-stop(70%, rgba(145,110,70,1)), color-stop(84%, rgba(71,44,13,1)));
+background: -webkit-linear-gradient(-45deg, rgba(196,143,75,1) 0%, rgba(245,193,137,1) 26%, rgba(255,209,155,1) 48%, rgba(255,210,156,1) 49%, rgba(145,110,70,1) 70%, rgba(71,44,13,1) 84%);
+background: -o-linear-gradient(-45deg, rgba(196,143,75,1) 0%, rgba(245,193,137,1) 26%, rgba(255,209,155,1) 48%, rgba(255,210,156,1) 49%, rgba(145,110,70,1) 70%, rgba(71,44,13,1) 84%);
+background: -ms-linear-gradient(-45deg, rgba(196,143,75,1) 0%, rgba(245,193,137,1) 26%, rgba(255,209,155,1) 48%, rgba(255,210,156,1) 49%, rgba(145,110,70,1) 70%, rgba(71,44,13,1) 84%);
+background: linear-gradient(135deg, rgba(196,143,75,1) 0%, rgba(245,193,137,1) 26%, rgba(255,209,155,1) 48%, rgba(255,210,156,1) 49%, rgba(145,110,70,1) 70%, rgba(71,44,13,1) 84%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c48f4b', endColorstr='#472c0d', GradientType=1 );
+
+
+}
+
+.wrapper{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	width: 410px;
+	height: 350px;
+	/*position: relative;*/
+	margin: auto;
+	background: rgba(255, 255, 255, 0.8);
+}
+input{
+	
+	height: 30px;
+	width: 200px;
+	background: white;
+	border: 1px solid  rgb(237, 218, 180);
+}
+.inputs{
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.form{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	top: 0px;
+	background-color: rgb(255, 255, 255);
+	margin: auto;
+	width: 408px;
+	height: 200px;
+	border: 1px solid rgb(237, 218, 180);
+	border-right: none;
+	border-left: none;
+
+}
+
+	
+span{
+	color: ;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+
+}
+.first{
+	/*font-weight: bold;*/
+	font-size: 25px;
+	padding: 20px;
+	color: rgb(81, 61, 39);
+
+}
+
+
+ .password{
+	margin-left: 25px;
+	color: grey;
+}
+.email{
+	margin-left: 25px;
+	color: grey;
+	
+}
+#email{
+	margin-left: 102px;
+	
+}
+#password{
+	margin-left: 85px;
+}
+
+a{
+	margin-left: 165px;
+	color: rgb(191, 154, 107);
+	font-size: 12px;
+}
+.m{
+	display: flex;
+	margin-left: 145px;
+	margin-top: 20px;
+}
+#checkbox{
+	width: 19px;
+	height: 19px;
+	margin-right: 9px;
+}
+.m span{
+	font-size: 17px;
+	font-family: 'McLaren', cursive;
+	color: rgb(81, 61, 39);
+
+
+}
+ 
+ 
+ #register{
+ 	position: absolute;
+ 	margin-top: 10px;
+ 	right: 20px;
+ 	bottom: 20px; 
+ 	height: 40px;
+ 	font-size: 10px;
+ 	background: rgb(240, 182, 120);
+ 	width: 120px;
+ 	color: white; 
+ 	padding: 2px;
+ 	font-size: 15px;
+ }
+ #login{
+ 	margin-right: 10px;
+ 	position: absolute;
+ 	margin-top: 10px;
+ 	right: 150px;
+ 	bottom: 20px; 
+ 	height: 40px;
+ 	font-size: 10px;
+ 	background: rgb(94, 60, 22);
+ 	width: 120px;
+ 	color: white; 
+ 	padding: 2px;
+ 	font-size: 15px;
+ }
+
