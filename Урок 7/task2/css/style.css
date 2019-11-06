@@ -1,0 +1,34 @@
+input:not(.submit){
+	display: block;
+	width: 80%;
+	margin: 10px  auto;
+	height: 30px;
+}
+input:focus{
+	border: 2px solid green;
+}
+form{
+	border: 1px solid black;
+	margin: auto;
+	width: 600px;
+	/*height: 500px;
+*/
+}
+span{
+	display: block;
+	margin-left: 10%;
+	font-size: 20px;
+}
+h2{
+	text-align: center;
+	font-size: 30px;
+}
+.submit{
+	background: blue;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	margin: 20px 0 20px 10%;
+	border-radius: 5%;
+
+}
