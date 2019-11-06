@@ -1,0 +1,76 @@
+input, select,textarea, option{
+	margin-bottom: 10px;
+	border: 1px solid green;
+	height: 20px;
+}
+.inputs{
+	margin-left: 20px;
+}
+form{
+	border: 1px solid green;
+	width: 550px;
+	padding: 20px;
+	margin: auto;
+
+}
+select{
+	height: 24px;
+	padding: 1px;
+	width: 171px;
+	
+}
+textarea{
+	height: 100px;
+	resize: none;
+
+}
+ .name{
+	margin-left: 64px;
+}
+.email{
+	margin-left: 53px;
+}
+.thema{
+	margin-left: 13px;
+
+}
+ .text{
+
+ 	margin-left: 79px;
+ 	
+
+ }
+ .protection{
+ 	margin-left: 0;
+
+ }
+ #submit{
+ 	margin-top: 10px;
+ 	margin-left: 150px;
+ 	border-radius: 5px; 
+ 	height: 25px;
+
+
+ }
+ img{
+ 	width: 100px;
+ 	height: 60px;
+ 	margin-bottom: -9px; 
+ 	border: 1px solid green;
+
+ }
+ a{
+ 	font-size: 12px;
+ 	color: black;
+ 	
+ }
+
+ #protection,  img{
+ 	margin-right: 10px;
+ }
+ .a{
+ 	display: inline;
+ }
+ .m{
+ 	display: flex;
+ }

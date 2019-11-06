@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav>
+		<form>
+			<span class="name" >Твое имя</span>
+			<input id="name" class="inputs" type="text" value="" name="name">
+			<br>
+			<span class="email">Твой email</span>
+			<input id="email" class="inputs" type="text" value="" name="email">
+			<br>
+			<span class="thema">Тема сообщения</span>
+			<select id="thema" class="inputs" name="select" value="" name="about">
+				<br>
+				<option value="не проверяют дз">Не проверяют дз</option>
+                <option value=""></option>
+			</select>
+			<!-- <br> -->
+			<div class="m">
+			<span class="text">Текст *</span>
+			<textarea id="text" class="inputs" value=""  cols="40" rows="10" name="textarea" ></textarea>
+		    </div>
+			<br>
+			<span class="protection"> Защита от спама *</span>
+			<input id="protection" class="inputs" type="text" name="kapcha" >
+			<img src="img/pic.png">
+			<div class="a">
+			<a href="#">сменить картинку</a>
+			</div>
+			<br>
+
+			<input type="submit" value="Отправить" id="submit" name="submit">
+		</form>
+		
+	</nav>
+	
+</body>
+</html>
