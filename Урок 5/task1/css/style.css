@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+	overflow-x: hidden; 
+}
+
+ul{
+	
+	width: 100vw;
+	height: 19px;
+	background-color: rgba(38, 21, 5, .9);
+	margin: 0;
+	padding: 10px;
+
+}
+li{
+	color: rgb(206, 167, 115);
+	font-family: 'Titillium Web', sans-serif;
+    font-family: 'Inconsolata', monospace;
+	display: inline;
+	margin-right: 15px;
+	margin-left: 15px; 
+	border-right: 1px solid rgb(206, 167, 115);
+	padding-right: 40px;
+	margin-bottom: 5px;
+	/*height: 30px;*/
+	
+}
+li:hover{
+	color: rgb(232, 205, 178);
+	cursor: pointer;
+}
+#wiki{
+	margin-right: 130px;
+	padding-right: 30px; 
+}
+#wiki:after{
+	content: '   \2192';	
+}
+
+.ne_takie_kak_vse{
+	border: none;
+	padding-right: 10px;
+	/*padding-left: 10px;*/
+}
+#foots:before{
+	
+	content: '\2605   ';	
+}
+#man:before{
+	
+	content: '\261B   ';	
+}
