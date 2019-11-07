@@ -40,6 +40,19 @@ input{
 	margin-left: 20px;
 	margin-bottom: 10px;
 }
+#email{
+	background: url(https://vjoy.cc/wp-content/uploads/2019/06/1-4.png);
+	background-size:  30px, 200px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+#password{
+	background: url(https://demiart.ru/forum/uploads20/post-2976419-1518341512-5a800d882fcc2.png);
+	background-size:  30px, 200px;
+	background-repeat: no-repeat;
+	background-position: right;
+
+}
 .form{
 	position: absolute;
 	left: 0px;
