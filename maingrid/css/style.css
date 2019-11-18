@@ -1,0 +1,387 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+}
+.block1{
+	
+	height: 100vh;
+
+	background: url(../img/background1.jpg);
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+ .block2{
+	
+	height: 100vh;
+	background: url(../img/background2.jpg);
+	background-size: 100% 100%;
+}
+.block1{
+	display: grid;
+	grid-template-rows: 25% 25% 25% 25%;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+}
+.block1 div{
+	border: 1px solid rgba(255,255,255,0.3);
+	color: white;
+	position: relative;
+}
+.block3{
+	height: 100vh;
+	background: rgb(41, 39, 50);
+	display: grid;
+	grid-template-rows: 25% 25% 25% 25%;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+
+}
+.block3 div{
+	border: 1px solid rgba(255,255,255,0.3);
+	position: relative;
+
+}
+.block4{
+	height: 100vh;
+	background: url(../img/background4.jpg);
+	display: grid;
+	grid-template-rows: 25% 25% 25% 25%;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+
+}
+.block4 div{
+	border: 1px solid rgba(255,255,255,0.3);
+	position: relative;
+
+}
+span{
+	position: absolute;
+	font-family: 'Alata', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white;
+
+}
+span::selection{
+	color: orange;
+	background: green;
+}
+.symbol{
+
+	right:-3px;
+	top: -6px;
+	font-size: 9px; 
+	
+    
+
+}
+.block2{
+	display: grid;
+	grid-template-rows: 25% 25% 25% 25%;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+
+}
+.block2 div{
+	border: 1px solid rgba(255,255,255,0.3);
+	color: white;
+	position: relative;
+	
+}
+.block2 div:nth-child(8){
+	grid-column: 2/6;
+	grid-row:2/4;
+}
+.numbers{
+	position: absolute;
+	right: 2px;
+	top: 5px;
+
+}
+.numbers2{
+	position: absolute;
+	left: 5px;
+	top: 5px;
+
+}
+div .red {
+	background: rgb(165, 19, 19);
+	
+	border-bottom: none;
+	border-top: none;
+	position: relative;
+}
+.big_number{
+	/*position: absolute;*/
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	line-height: 156px;
+	text-align: center;
+	font-size: 140px;
+}
+#big_text{
+	top: 0;
+    right: 0px;
+    left: 120px;
+    bottom: 0;
+    line-height: 156px;
+    text-align: center;
+    font-size: 132px;
+    text-transform: uppercase;
+    z-index: 2;
+}
+#big_text2{
+	top: 92px;
+    right: 0;
+    left: 124px;
+    bottom: 0;
+    line-height: 72px;
+    text-align: center;
+    font-size: 86px;
+    text-transform: uppercase;
+    z-index: 2;
+}
+.icons{
+	top: -27px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	line-height: 174px;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	
+	
+}
+
+.govnoebanoe{
+	display: block;
+	top: 8px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	line-height: 174px;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	
+	
+}
+
+
+.logo{
+	background: url(../img/logo.png);
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.filter{
+background: rgba(255, 255, 255, .1);	
+}
+.filter:hover{
+background: rgba(255, 255, 255, .3);	
+}
+.filter2:hover{
+	background: rgba(165, 19, 19, .8) ;
+}
+.phone{
+	right: 0;
+	left: 0;
+	text-align: center;
+	line-height: 144px;
+	font-size: 20px;
+}
+
+
+#sub_title{
+	border: none;
+	width: 604px;
+    height: 100px;
+    right: 0px;
+    bottom: 0;
+    top: 106px;
+    left: 64px;
+    margin: auto;
+
+
+}
+#big{
+	top: -21px;
+    right: 17px;
+    left: -96px;
+    bottom: 0;
+    line-height: 72px;
+    text-align: center;
+    font-size: 121px;
+    text-transform: uppercase;
+    z-index: 2;
+
+}
+sub{
+	position: absolute;
+    top: 27px;
+    left: 209px;
+    font-size: 20px;
+
+}
+.light_block{
+	background: rgb(51, 49, 60);
+}
+
+.text_in_block{
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	top: 60px;
+	left: 0;
+	margin: auto;
+	text-align: center;
+	font-size: 30px;
+	background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text_in_block i{
+	font-size: 50px;
+	background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 500ms;
+}
+.text_in_block i:hover{
+	margin-top: -30px;
+	font-size: 100px;
+	transition: 500ms;
+	cursor: pointer;
+}
+.block4 div:nth-child(10){
+	grid-column: 4/6;
+	grid-row:2/4;
+	background: rgb(165, 19, 19);
+	border: none;
+	
+}
+#form{
+	    border: none;
+    width: 90%;
+    height: 90%;
+    padding: 16px;
+    margin: auto;
+
+
+}
+form{
+	position: relative;
+    height: 100%;
+    width: 100%
+	
+
+}
+
+.formtitle{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	margin-left: 100px;
+}
+.send{
+	border: 1px solid white;
+    position: absolute;
+    padding: 12px;
+    right: 27px;
+    bottom: 14px;
+    color: white;
+}
+.send:hover{
+	background: white;
+	color: red;
+}
+#group{
+  position: relative;
+  margin-bottom: 30px;
+  border: none;
+  display: inline;
+}
+input {
+	margin-bottom: 10px;
+	margin-top: 60px;
+	width: 200px;
+
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: none;
+  /*outline: none;*/
+  font-family: 'Alata', sans-serif;
+}
+input:focus {
+  outline: none;
+  background: rgb(165, 19, 19);
+}
+label {
+  color: #999;
+  font-size: 18px;
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: -4px;
+
+}
+
+
+input:focus ~ label, input:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color: white;
+}
+
+
+.contacts{
+	width: 349px;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: -191px;
+    top: 0;
+}
+#boul{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: grey;
+	bottom: 0px;
+	right: 0;
+	top: 5px;
+	left: -229px;
+}
+.small_boul{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 9px;
+	margin: auto;
+	border-radius: 50%;
+	background: red;
+}
+
+
